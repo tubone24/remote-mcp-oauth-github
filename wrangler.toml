@@ -1,0 +1,14 @@
+name = "mcp-github-oauth-demo"
+main = "src/index.ts"
+compatibility_date = "2024-12-01"
+compatibility_flags = ["nodejs_compat"]
+
+# KV namespace for OAuth state storage
+[[kv_namespaces]]
+binding = "OAUTH_KV"
+id = "fd818b5c03434a71a0fa1f846f8d1fdb"
+
+# Environment variables - set these using:
+# wrangler secret put GITHUB_CLIENT_ID
+# wrangler secret put GITHUB_CLIENT_SECRET  
+# wrangler secret put COOKIE_ENCRYPTION_KEY
