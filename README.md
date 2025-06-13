@@ -2,6 +2,10 @@
 
 A Model Context Protocol (MCP) server for Claude.ai custom integrations, running on Cloudflare Workers with GitHub OAuth authentication.
 
+## Demo(Slide)
+
+<https://slide-tubone24.pages.dev/slides/authmcp/1>
+
 ## Features
 
 - ✅ Claude.ai Custom Integration support
